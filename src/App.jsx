@@ -4,7 +4,7 @@ import Artikel from './pages/artikel'
 import Home from './pages/home'
 import LayananPublik from './pages/layanan-publik'
 import Login from './pages/login'
-import profilDiri from './pages/profil-diri'
+import ProfilDiri from './pages/profil-diri'
 import Register from './pages/register'
 // import { LayananPublik } from './pages/layanan-publik.jsx';
 // import { Login } from './pages/login.jsx'
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/profil" element={<profilDiri />} />
+          <Route path="/profil" element={<ProfilDiri />} />
           <Route path="/artikel" element={<Artikel />} />
           <Route path="/layanan" element={<LayananPublik />} />
         </Routes>
