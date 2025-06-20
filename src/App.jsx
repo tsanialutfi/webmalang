@@ -6,10 +6,6 @@ import LayananPublik from './pages/layanan-publik'
 import Login from './pages/login'
 import ProfilDiri from './pages/profil-diri'
 import Register from './pages/register'
-// import { LayananPublik } from './pages/layanan-publik.jsx';
-// import { Login } from './pages/login.jsx'
-// import { ProfilDiri } from './pages/profil-diri.jsx'
-// import { Register } from './pages/register.jsx'
 
 function App() {
   return (
